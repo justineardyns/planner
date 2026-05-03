@@ -1,14 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sun May  3 09:58:33 2026
-
-@author: justineardyns
-"""
-
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 import sqlite3
 import requests
 from datetime import date, datetime, timedelta, time
@@ -18,7 +7,7 @@ import altair as alt
 import streamlit as st
 from icalendar import Calendar
 
-
+ICAL_URL = https://calendar.google.com/calendar/ical/justine.ardyns%40gmail.com/private-a46cd0252a3a9d242eaa09989263864c/basic.ics
 DB_PATH = "coach.db"
 
 # Gent
