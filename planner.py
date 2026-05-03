@@ -7,7 +7,7 @@ import altair as alt
 import streamlit as st
 from icalendar import Calendar
 
-ICAL_URL = "https://calendar.google.com/calendar/ical/justine.ardyns%40gmail.com/private-a46cd0252a3a9d242eaa09989263864c/basic.ics"
+ICAL_URL = "link"
 DB_PATH = "coach.db"
 
 # Gent
